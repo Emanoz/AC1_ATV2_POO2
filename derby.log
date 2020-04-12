@@ -1,0 +1,560 @@
+----------------------------------------------------------------
+Sat Apr 11 21:46:37 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:51:45 BRT 2020:
+Shutting down instance a816c00e-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:51:45 BRT 2020 Thread[Thread-22,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:51:45 BRT 2020 Thread[Thread-22,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:51:47 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 71b840bf-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:51:49 BRT 2020:
+Shutting down instance 71b840bf-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:51:50 BRT 2020 Thread[Thread-38,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:51:50 BRT 2020 Thread[Thread-38,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:51:51 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance bc9ec0ce-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:51:55 BRT 2020:
+Shutting down instance bc9ec0ce-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:51:56 BRT 2020 Thread[Thread-54,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:51:56 BRT 2020 Thread[Thread-54,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:51:57 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance d7bd80dd-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:51:59 BRT 2020:
+Shutting down instance d7bd80dd-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:52:00 BRT 2020 Thread[Thread-70,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:52:00 BRT 2020 Thread[Thread-70,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:52:00 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance b31480ec-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:52:05 BRT 2020:
+Shutting down instance b31480ec-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:52:05 BRT 2020 Thread[Thread-86,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:52:05 BRT 2020 Thread[Thread-86,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:52:06 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 3ea3c0fb-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:52:08 BRT 2020:
+Shutting down instance 3ea3c0fb-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:52:09 BRT 2020 Thread[Thread-102,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:52:09 BRT 2020 Thread[Thread-102,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:52:10 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 6a6b410a-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:52:16 BRT 2020:
+Shutting down instance 6a6b410a-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:52:16 BRT 2020 Thread[Thread-118,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:52:16 BRT 2020 Thread[Thread-118,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:52:17 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 266b0119-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:52:21 BRT 2020:
+Shutting down instance 266b0119-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:52:22 BRT 2020 Thread[Thread-134,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:52:22 BRT 2020 Thread[Thread-134,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:52:23 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 62a30128-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:53:16 BRT 2020:
+Shutting down instance 62a30128-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:53:17 BRT 2020 Thread[Thread-150,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:53:17 BRT 2020 Thread[Thread-150,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+----------------------------------------------------------------
+Sat Apr 11 21:53:17 BRT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 0f134137-0171-6bda-3dfd-00000e4c9f40 
+on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Loaded from file:/home/emanos/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Private Build
+java.runtime.version=1.8.0_242-8u242-b08-0ubuntu3~18.04-b08
+user.dir=/home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2
+os.name=Linux
+os.arch=amd64
+os.version=5.3.0-46-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sat Apr 11 21:54:24 BRT 2020:
+Shutting down instance 0f134137-0171-6bda-3dfd-00000e4c9f40 on database directory /home/emanos/Desktop/Canseira/POO2/prj_ac1_atv2/dbfuncionario with class loader sun.misc.Launcher$AppClassLoader@75b84c92 
+Sat Apr 11 21:54:25 BRT 2020 Thread[Thread-165,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed
+Sat Apr 11 21:54:25 BRT 2020 Thread[Thread-165,5,main] Cleanup action starting
+ERROR XBM0I: Directory dbfuncionario cannot be removed.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.removePersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Cleanup action completed

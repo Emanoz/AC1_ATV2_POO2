@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionarios</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+                
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+                
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <form th:action="@{/funcionarios}" method="POST">
+        <input type="text" name="nome" placeholder="Nome:">
+        <input type="text" name="sobrenome" placeholder="Sobrenome:">
+        <input type="text" name="salario" placeholder="Salário:">
+        <input type="text" name="cpf" placeholder="CPF:">
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    <table>
+        <tr>
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Salário</th>
+            <th>CPF</th>
+        </tr>
+        <tr th:each="i : ${list}">
+            <td th:text="${i?.codigo}"></td>
+            <td th:text="${i?.nome}"></td>
+            <td th:text="${i?.sobrenome}"></td>
+            <td th:text="${i?.salario}"></td>
+            <td th:text="${i?.cpf}"></td>
+        </tr>
+    </table>
+</body>
+</html>
