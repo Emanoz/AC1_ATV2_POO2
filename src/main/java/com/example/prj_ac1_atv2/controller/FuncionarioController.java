@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.ModelAndView;    
 
 @Controller
 public class FuncionarioController {
@@ -21,13 +21,9 @@ public class FuncionarioController {
     @GetMapping("/funcionarios")
     public ModelAndView getAll(){
         List<Funcionario> list = serv.getAll();
-        ModelAndView mv = new ModelAndView();
+        ModelAndView mv = new ModelAndView("viewFuncionarios");
         mv.addObject("list", list);
-
-        if(list.isEmpty())
-            mv.setViewName("viewErro");
-        else
-            mv.setViewName("viewFuncionarios");
+        
         return mv;
     }
 
@@ -39,8 +35,6 @@ public class FuncionarioController {
         mv.addObject("list", list);
         if(!serv.setFuncionario(f))
             mv.setViewName("viewErroNull");
-        else if(list.isEmpty())
-            mv.setViewName("viewErro");
         else
             mv.setViewName("viewFuncionarios");
         return mv;
