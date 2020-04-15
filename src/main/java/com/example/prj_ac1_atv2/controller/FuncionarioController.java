@@ -28,17 +28,9 @@ public class FuncionarioController {
     }
 
     @PostMapping("/funcionarios")
-    public ModelAndView setFuncionario(@ModelAttribute Funcionario f){
-        ModelAndView mv = new ModelAndView();
-        
+    public String setFuncionario(@ModelAttribute Funcionario f){
         if(!serv.setFuncionario(f))
-            mv.setViewName("viewErroNull");
-        else{
-            List<Funcionario> list = serv.getAll();
-            mv.addObject("list", list);
-            mv.setViewName("viewFuncionarios");
-        }
-            
-        return mv;
+            return "viewErroNull";
+        return "redirect:/funcionarios";
     }
 }
