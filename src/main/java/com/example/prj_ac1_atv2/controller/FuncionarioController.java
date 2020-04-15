@@ -30,13 +30,15 @@ public class FuncionarioController {
     @PostMapping("/funcionarios")
     public ModelAndView setFuncionario(@ModelAttribute Funcionario f){
         ModelAndView mv = new ModelAndView();
-        List<Funcionario> list = serv.getAll();
-
-        mv.addObject("list", list);
+        
         if(!serv.setFuncionario(f))
             mv.setViewName("viewErroNull");
-        else
+        else{
+            List<Funcionario> list = serv.getAll();
+            mv.addObject("list", list);
             mv.setViewName("viewFuncionarios");
+        }
+            
         return mv;
     }
 }

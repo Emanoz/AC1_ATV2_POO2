@@ -22,7 +22,7 @@ public class FuncionarioService {
     }
 
     public boolean setFuncionario(Funcionario f){
-        if(f.getNome().isEmpty() || f.getCpf().isEmpty()|| f.getSobrenome().isEmpty() || f.getSalario() == 0)
+        if(f.getNome().isEmpty() || f.getCpf().isEmpty()|| f.getSobrenome().isEmpty() || f.getSalario() <= 0)
             return false;
         repos.save(f);
         return true;
